@@ -116,4 +116,34 @@ section p
         margin: 5px;
         font-size: 13px;
     }
+    section
+    {
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;   
+    } 
+    section img
+    {
+        height:350px; 
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,40%);
+    }
+    section span
+    {
+        position: absolute;
+        top: 45%;
+        left: 3%;
+        right: 3%;
+        /* margin-top: 120px; */
+        /* margin-right: 5px; */
+        font-size: 16px;
+    }
+    section span h2
+    {
+        font-size: 70px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
 }
